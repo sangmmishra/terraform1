@@ -11,7 +11,7 @@ provider "azurerm" {
 terraform {
   backend "azurerm" {
     storage_account_name = "statefileterrafor"
-    container_name       = "container1"
+    container_name       = "container2"
     key                  = "prod.terraform.tfstate"
     access_key = "xyrogy1IVD5pvwRdxDFPnp+6kXd2XMa/0PZDPHX/KeKcZbaQtA/NQMYWq3ztU0X2no2Bsd+VxHos+AStu/EcXw=="
   }
